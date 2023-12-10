@@ -1,9 +1,12 @@
 import { NavLink } from 'react-router-dom';
+import { Button } from '@mui/material';
 
 export default function ProjectPage() {
   return (
     <>
-      <NavLink to={'/'}>Go to Home</NavLink>
+      <NavLink to={'/'}>
+        <Button>Go to home</Button>
+      </NavLink>
     </>
   );
 }

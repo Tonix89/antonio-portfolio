@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import { CssBaseline } from "@mui/material";
 import HomePage from "./components/Pages/Home";
 import ProjectPage from "./components/Pages/Projects";
 
