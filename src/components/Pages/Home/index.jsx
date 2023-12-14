@@ -1,10 +1,9 @@
-import { NavLink } from 'react-router-dom';
-import Header from '../../Header';
+import { Typography, Box } from '@mui/material';
 
 export default function HomePage() {
   return (
-    <>
-      <Header />
-    </>
+    <Box sx={{ backgroundColor: 'primary.main', minHeight: '93.5vh' }}>
+      <Typography variant="h4">This is home page</Typography>
+    </Box>
   );
 }
