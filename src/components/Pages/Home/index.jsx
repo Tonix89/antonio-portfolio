@@ -1,9 +1,10 @@
 import { NavLink } from 'react-router-dom';
+import Header from '../../Header';
 
 export default function HomePage() {
   return (
     <>
-      <NavLink to={'/projects'}>Go to projects</NavLink>
+      <Header />
     </>
   );
 }

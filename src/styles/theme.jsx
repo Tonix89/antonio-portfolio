@@ -4,6 +4,7 @@ const theme = createTheme({
   palette: {
     primary: {
       main: '#273141',
+      dark: '#1e2530',
     },
     secondary: {
       main: '#ffffff',
@@ -29,12 +30,21 @@ const theme = createTheme({
     },
     h4: {
       color: '#ffffff',
+      '@media (max-width:900px)': {
+        fontSize: '1.5rem',
+      },
+      '@media (max-width:600px)': {
+        fontSize: '1rem',
+      },
     },
     h5: {
       color: '#ffffff',
     },
     h6: {
       color: '#ffffff',
+      '@media (max-width:900px)': {
+        fontSize: '0.95rem',
+      },
     },
     body1: {
       color: '#273141',
