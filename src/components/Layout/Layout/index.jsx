@@ -8,13 +8,9 @@ export default function Layout() {
   const params = useLocation();
 
   return (
-    <>
+    <Box sx={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
       <Header />
-      <Box
-        sx={{
-          minHeight: '90vh',
-        }}
-      >
+      <Box sx={{ height: '100%' }}>
         <Outlet />
       </Box>
       {params.pathname === '/' ? (
@@ -29,10 +25,10 @@ export default function Layout() {
           <Footer />
         </Box>
       ) : (
-        <Container>
+        <Container sx={{ pb: 2 }}>
           <Footer />
         </Container>
       )}
-    </>
+    </Box>
   );
 }

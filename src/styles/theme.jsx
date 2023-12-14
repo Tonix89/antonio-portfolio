@@ -39,6 +39,9 @@ const theme = createTheme({
     },
     h5: {
       color: '#ffffff',
+      '@media (max-width:900px)': {
+        fontSize: '1rem',
+      },
     },
     h6: {
       color: '#ffffff',

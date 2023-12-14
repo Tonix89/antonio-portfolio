@@ -22,7 +22,10 @@ export default function Header() {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+    <Box
+      onClick={handleDrawerToggle}
+      sx={{ textAlign: 'center', height: '50vh' }}
+    >
       <Box>
         <Link href="/">
           <Typography variant="h4" sx={{ m: 2 }}>
@@ -38,7 +41,7 @@ export default function Header() {
           alignItems: 'center',
           justifyContent: 'space-between',
           m: 2,
-          height: '100%',
+          height: '36vh',
         }}
       >
         <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
@@ -114,7 +117,11 @@ export default function Header() {
 
   return (
     <>
-      <AppBar component="nav" sx={{ backgroundColor: 'primary.dark' }}>
+      <AppBar
+        component="nav"
+        position="relative"
+        sx={{ backgroundColor: 'primary.dark' }}
+      >
         <Toolbar sx={{ justifyContent: 'center' }}>
           <Box
             sx={{
@@ -140,7 +147,7 @@ export default function Header() {
             </IconButton>
           </Box>
           <Box
-            maxWidth="xl"
+            maxWidth="lg"
             sx={{
               display: { xs: 'none', sm: 'flex' },
               alignItems: 'center',
@@ -249,7 +256,6 @@ export default function Header() {
             '& .MuiDrawer-paper': {
               boxSizing: 'border-box',
               backgroundColor: 'primary.main',
-              height: '50vh',
             },
           }}
         >
