@@ -8,11 +8,16 @@ export default function Layout() {
   const params = useLocation();
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+        minHeight: '100vh',
+      }}
+    >
       <Header />
-      <Box sx={{ height: '100%' }}>
-        <Outlet />
-      </Box>
+      <Outlet />
       {params.pathname === '/' ? (
         <Box
           sx={{

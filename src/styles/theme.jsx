@@ -51,6 +51,9 @@ const theme = createTheme({
     },
     body1: {
       color: '#273141',
+      '@media (max-width:600px)': {
+        fontSize: '.75rem',
+      },
     },
     body2: {
       color: '#273141',

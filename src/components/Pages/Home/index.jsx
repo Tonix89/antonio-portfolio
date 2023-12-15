@@ -18,7 +18,7 @@ export default function HomePage() {
   ];
 
   return (
-    <Box sx={{ backgroundColor: 'primary.main', height: 'inherit', py: 3 }}>
+    <Box sx={{ backgroundColor: 'primary.main', py: 3 }}>
       <Container
         maxWidth="lg"
         sx={{
@@ -26,7 +26,7 @@ export default function HomePage() {
           flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'space-around',
-          height: '100%',
+          minHeight: '81.6vh',
         }}
       >
         <Box
