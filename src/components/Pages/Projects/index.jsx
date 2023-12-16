@@ -111,6 +111,7 @@ export default function ProjectPage() {
                       <IconButton>
                         <Link
                           href={project.repo}
+                          target="_blank"
                           sx={{ color: 'secondary.main' }}
                         >
                           <Avatar
@@ -127,6 +128,7 @@ export default function ProjectPage() {
                       <IconButton>
                         <Link
                           href={project.live_site}
+                          target="_blank"
                           sx={{ color: 'secondary.main' }}
                         >
                           <Avatar

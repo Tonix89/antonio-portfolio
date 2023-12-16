@@ -89,6 +89,7 @@ export default function Header() {
           <IconButton>
             <Link
               href="https://www.facebook.com/tonixzz"
+              target="_blank"
               sx={{ color: 'secondary.main' }}
             >
               <FacebookIcon />
@@ -97,6 +98,7 @@ export default function Header() {
           <IconButton>
             <Link
               href="https://www.linkedin.com/in/antonio-arabejo-a22524152"
+              target="_blank"
               sx={{ color: 'secondary.main' }}
             >
               <LinkedInIcon />
@@ -105,6 +107,7 @@ export default function Header() {
           <IconButton>
             <Link
               href="https://github.com/Tonix89"
+              target="_blank"
               sx={{ color: 'secondary.main' }}
             >
               <GitHubIcon />
@@ -218,6 +221,7 @@ export default function Header() {
               <IconButton>
                 <Link
                   href="https://www.facebook.com/tonixzz"
+                  target="_blank"
                   sx={{ color: 'secondary.main' }}
                 >
                   <FacebookIcon />
@@ -226,6 +230,7 @@ export default function Header() {
               <IconButton>
                 <Link
                   href="https://www.linkedin.com/in/antonio-arabejo-a22524152"
+                  target="_blank"
                   sx={{ color: 'secondary.main' }}
                 >
                   <LinkedInIcon />
@@ -234,6 +239,7 @@ export default function Header() {
               <IconButton>
                 <Link
                   href="https://github.com/Tonix89"
+                  target="_blank"
                   sx={{ color: 'secondary.main' }}
                 >
                   <GitHubIcon />
