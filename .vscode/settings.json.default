@@ -1,0 +1,9 @@
+Open the Command Palette with Ctrl + , or Cmd + ,. Click on the Workplace Settings tab and search for Format. You will see a number of settings relating to formatting; we are interested in Format on Save. Tick the checkbox and open the new .vscode/settings.json file.
+
+To ensure reliable results, we must specify that we want to use Prettier as our default formatter. We can do this by selecting Prettier from the list in the Settings menu, or simply by adding this line to our .vscode/settings.json file:
+
+
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}
