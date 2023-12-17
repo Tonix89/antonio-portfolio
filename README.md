@@ -1,6 +1,58 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot 2023-12-17 194940](https://github.com/Tonix89/antonio-portfolio/assets/100238552/45a46f8a-38fc-450c-a8b3-cd9b33b67957)
+
+## Description
+This is my personal portfolio. It is part of my school exam for my last semester as a front-end web developer student at Noroff.
+
+What is in my portfolio:
+
+- A landing/home page displaying my profile picture.
+- A project page displaying at least 3 of our latest projects in our school with links to the GitHub repository and live site.
+- An about me page displaying some information about my background.
+- Icons with links to my social media accounts.
+
+## Built With
+
+- [React JS](https://react.dev)
+- [Material UI](https://mui.com/)
+
+## Getting started
+
+ ### Installing
+   1. Clone this repo:
+      ```bash
+      https://github.com/Tonix89/antonio-portfolio.git
+      ```
+   2. Install all dependencies:
+      ```bash
+      npm i
+      ```
+ ### Running
+  1. Run this command to start the development server:
+  
+     ```bash
+     npm run start
+     ```
+Once the command is run, the development server is automatically open in the code editor's default browser.
+See [Other available scripts](#available-scripts) for react development.
+
+## Contributing
+If you wish to contribute to this project, please follow this guidelines:
+  1. Fork the project.
+  2. Create a development branch from ``` master ``` .
+  3. Make some commits to improve the project.
+  4. Make sure to add a commit message in each commit and describe what you did.
+  5. Push the development branch to your ``` master ``` branch.
+  6. Open a Pull Request to the upstream branch.
+  7. Pull Request will be reviewed and merged if applicable.
+
+## Contact
+If you have any question or suggestion, please do not hesitate to contact me here:
+
+[LinkedIn](www.linkedin.com/in/antonio-arabejo-a22524152)
+
+[Facebook](https://www.facebook.com/tonixzz/)
 
 ## Available Scripts
 
